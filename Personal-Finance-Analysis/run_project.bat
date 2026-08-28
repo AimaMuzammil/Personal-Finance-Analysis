@@ -1,0 +1,6 @@
+@echo off
+echo Running Personal Finance Analysis...
+python analysis.py
+echo.
+echo Starting Streamlit dashboard...
+streamlit run app.py
